@@ -1,0 +1,196 @@
+#find {
+    header {
+        height: 0.42rem;
+        line-height: 0.42rem;
+        text-align: center;
+        background: #fff;
+        @include border(0 0 2px 0,#f5f5f5);
+        color: #030303;
+    }
+    .pdd {
+        padding: 0 0.15rem;
+        @include flexbox();
+        @indlude flex-direction();
+        @include align-items(center);
+    }
+    .member {
+        height: 0.65rem;
+        background: #fff;
+        margin-bottom: 0.08rem;
+        i {
+            display: inline-block;
+            height: 0.65rem;
+            line-height: 0.65rem;
+            color: #fe9e52;
+            font-size: 0.25rem;
+        }
+        .desc {
+            @include flex(1);
+            padding-left: 0.13rem;
+            span {
+                display: block;
+                &:first-child {
+                    font-size: 0.15rem;
+                    height: 0.2rem;
+                    line-height: 0.2rem;
+                    color: #474747;
+                }
+                &:nth-child(2) {
+                    color: #adadad;
+                    height: 0.2rem;
+                    line-height: 0.2rem;
+                    font-size: 0.12rem;
+                }
+            }
+        }
+    }
+    .uls {
+        .lis {
+            padding: 0 0.15rem;
+            @include border(0 0 2px 0,#f5f5f5);
+            height: 0.45rem;
+            background: #fff;
+            width: 100%;
+            a {
+                width: 100%;
+                @include flexbox();
+                @include flex-direction();
+            }
+            @include flexbox();
+            @include flex-direction();
+            span {
+                display: inline-block;
+                line-height: 0.45rem;
+                font-size: 0.14rem;
+                height: 0.45rem;
+                color: #2a2a2a;
+                &:nth-child(2) {
+                    padding-left: 0.13rem;
+                }
+                &:nth-child(3) {
+                    @include flex(1);
+                    text-align: right;
+                    font-size: 0.12rem;
+                    color: #a2a2a2;
+                }
+            }
+            i {
+                display: inline-block;
+                line-height: 0.45rem;
+                height: 0.45rem;
+                font-size: 0.24rem;
+            }
+            &:nth-child(5) {
+                margin: 0.08rem 0;
+                i {
+                    color: #fec020;
+                }
+            }
+        }
+        .blue {
+            i {
+                color: #85b7ff;
+            }
+        }
+        .gray {
+            i {
+                color: #9ab5c7;
+            }
+        }
+    }
+}
+
+#my {
+    .sc {
+        @include flex(1);
+        overflow-y: scroll;
+        width: 100%;
+    }
+    .login {
+        height: 2.2rem;
+        @include background-size(100% 100%);
+        @include flexbox();
+        @include flex-direction(column);
+        @include justify-content(flex-end);
+        @include align-items(center);
+        .user {
+            @include background-size(100% 100%);
+            @include border-radius(50%);
+            margin: 0 auto;
+            width: 0.9rem;
+            height: 0.9rem;
+            margin-bottom: 0.05rem;
+            img {
+                margin: 0 auto;
+            }
+        }
+        .tip {
+            span {
+                display: block;
+                text-align: center;
+                &:first-child {
+                    height: 0.25rem;
+                    line-height: 0.2rem;
+                    font-size: 0.16rem;
+                    color: #fff;
+                }
+                &:nth-child(2) {
+                    margin-bottom: 0.2rem;
+                    color: #fff;
+                    
+                }
+            }
+        }
+    }
+    .pdd {
+        padding: 0 0.12rem;
+        @include border(0 0 1px 0);
+        height: 0.5rem;
+        background: #fff;
+        a {
+            height: 0.5rem;
+            @include flexbox();
+            @indlude flex-direction();
+            @include align-items(center);
+        }
+        i {
+            font-size: 0.23rem;
+        }
+        & :nth-child(2) {
+            padding-left: 0.08rem;
+            font-size: 0.14rem;
+            color: #2b2b2b;
+            
+        }
+        & :nth-child(3) {
+            @include flex(1);
+            text-align: right;
+            color: #005fd2;
+            font-size: 0.12rem;
+        }
+       
+        &:nth-child(2),&:nth-child(5),&:nth-child(9) {
+            margin-bottom: 0.08rem;
+        }
+        &:nth-child(2) {
+            i {
+                color: #ff703d;
+            }
+        }
+        &:nth-child(3) {
+            color: #ff8730;
+        }
+        &:nth-child(4) {
+            color: #ffac0b;
+        }
+        &:nth-child(5) {
+            color: #fbcb05;
+        } 
+    }
+    .blue {
+        i{
+            color: #82b7fd;
+        }
+        
+    }
+}

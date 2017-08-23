@@ -1,0 +1,445 @@
+{
+	"boy": {
+		"banner": [{
+			"img": "http://localhost:8000/banner/1.jpg",
+			"id": "1"
+		},{
+			"img": "http://localhost:8000/banner/2.jpg",
+			"id": "2"
+		},{
+			"img": "http://localhost:8000/banner/3.jpg",
+			"id": "3"
+		},{
+			"img": "http://localhost:8000/banner/4.jpg",
+			"id": "4"
+		}],
+		"recommend": [{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		},{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		}],
+		"news": [{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		},{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		}],
+		"others": {
+			"free" :{
+				"title": "限时免费",
+				"tap": "free",
+				"list": [{
+					"id": "04",
+					"img": "http://localhost:8000/books/images/_04.jpg",
+					"title": "我的美女上司",
+					"autor": "孤弱天成",
+					"price": "12阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "06",
+					"img": "http://localhost:8000/books/images/_06.jpg",
+					"title": "和珅全传",
+					"autor": "叶伟康",
+					"price": "8阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "04",
+					"img": "http://localhost:8000/books/images/_04.jpg",
+					"title": "我的美女上司",
+					"autor": "孤弱天成",
+					"price": "12阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "06",
+					"img": "http://localhost:8000/books/images/_06.jpg",
+					"title": "和珅全传",
+					"autor": "叶伟康",
+					"price": "8阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				}]
+			},
+			"charge": {
+				"title": "限时收费",
+				"tap": "charge",
+				"list": [{
+					"id": "04",
+					"img": "http://localhost:8000/books/images/_04.jpg",
+					"title": "我的美女上司",
+					"autor": "孤弱天成",
+					"price": "12阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "06",
+					"img": "http://localhost:8000/books/images/_06.jpg",
+					"title": "和珅全传",
+					"autor": "叶伟康",
+					"price": "8阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "04",
+					"img": "http://localhost:8000/books/images/_04.jpg",
+					"title": "我的美女上司",
+					"autor": "孤弱天成",
+					"price": "12阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				},{
+					"id": "06",
+					"img": "http://localhost:8000/books/images/_06.jpg",
+					"title": "和珅全传",
+					"autor": "叶伟康",
+					"price": "8阅点/章",
+					"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+				}]
+			}
+		}
+	},
+	"girl": {
+		"banner": [{
+			"img": "http://localhost:8000/banner/2.jpg",
+			"id": "2"
+		},{
+			"img": "http://localhost:8000/banner/4.jpg",
+			"id": "4"
+		},{
+			"img": "http://localhost:8000/banner/1.jpg",
+			"id": "1"
+		},{
+			"img": "http://localhost:8000/banner/3.jpg",
+			"id": "3"
+		}],
+		"recommend": [{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		}],
+		"news": [{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		}],
+		"others": [{
+			"title": "限时免费",
+			"tap": "free",
+			"list": [{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			}]
+		},{
+			"title": "限时收费",
+			"tap": "free",
+			"list": [{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			}]
+		}]		
+	},
+	"pb": {
+		"banner": [{
+			"img": "http://localhost:8000/banner/3.jpg",
+			"id": "3"
+		},{
+			"img": "http://localhost:8000/banner/4.jpg",
+			"id": "4"
+		},{
+			"img": "http://localhost:8000/banner/1.jpg",
+			"id": "1"
+		},{
+			"img": "http://localhost:8000/banner/2.jpg",
+			"id": "2"
+		}],
+		"recommend": [{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		}],
+		"news": [{
+			"img": "http://localhost:8000/books/_07.png",
+			"title": "灵鼎",
+			"id": "07"
+		},{
+			"img": "http://localhost:8000/books/_12.jpg",
+			"title": "青云直上",
+			"id": "12"
+		},{
+			"img": "http://localhost:8000/books/_03.png",
+			"title": "权利巅峰",
+			"id": "03"
+		},{
+			"img": "http://localhost:8000/books/_05.jpg",
+			"title": "万古天地",
+			"id": "05"
+		},{
+			"img": "http://localhost:8000/books/_14.png",
+			"title": "八荒斗神",
+			"id": "14"
+		},{
+			"img": "http://localhost:8000/books/_13.png",
+			"title": "九仙图",
+			"id": "13"
+		}],
+		"others": [{
+			"title": "限时免费",
+			"tap": "free",
+			"list": [{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			}]
+		},{
+			"title": "限时收费",
+			"tap": "free",
+			"list": [{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "04",
+				"img": "http://localhost:8000/books/images/_04.jpg",
+				"title": "我的美女上司",
+				"autor": "孤弱天成",
+				"price": "12阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			},{
+				"id": "06",
+				"img": "http://localhost:8000/books/images/_06.jpg",
+				"title": "和珅全传",
+				"autor": "叶伟康",
+				"price": "8阅点/章",
+				"desc": "啊啊我的大为单位阿达瓦热污染打算打哇染发大声地阿发我的单位发生的发我发的发我份萨达无法"
+			}]
+		}]		
+	}
+	
+	
+}

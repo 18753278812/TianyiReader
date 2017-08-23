@@ -1,0 +1,10 @@
+[{
+	"img": "http://localhost:8000/mybook/bjbj.jpg",
+	"id": "1"
+},{
+	"img": "http://localhost:8000/mybook/jxt.jpg",
+	"id": "2"
+},{
+	"img": "http://localhost:8000/mybook/wd.jpg",
+	"id": "3"
+}]

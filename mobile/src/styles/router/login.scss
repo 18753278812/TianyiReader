@@ -1,0 +1,131 @@
+#login {
+    $padding: 0.14rem;
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+	header {
+	    padding: 0 $padding;
+	    @include flexbox();
+	    @include flex-direction();
+        border-bottom: 1px solid #f5f5f5;
+	    background: #fff;
+        span {
+            display: inline-block;
+            @include flex(1);
+            text-align: center;
+            line-height: 0.45rem;
+            font-size: 0.15rem;
+            color: #020202;
+        }
+        i {
+            display: inline-block;
+            height: 0.45rem;
+            line-height: 0.45rem;
+            font-size: 0.18rem;
+            color: #a0a0a0;
+            @include flex(1);
+        }
+        &::after {
+            content: "";
+            @include flex(1);
+        }
+    }
+    section {
+        padding: 0 0.18rem;
+        background: #fff;
+        @include flex(1);
+        width: 100%;
+        @include flexbox();
+        @include flex-direction(column);
+        .inputs {
+            margin-top: 0.25rem;
+            font-size: 0.12rem;
+            input {
+                height: 0.38rem;
+                width: 100%;
+                border: 0;
+                padding: 0 5px;
+                &:nth-child(2) {
+                    border-top: 1px solid #e6e6e6;
+                }
+            }
+            @include border(2px,#e6e6e6);
+        }
+        button {
+            height: 0.4rem;
+            width: 100%;
+            margin-top: 0.2rem;
+            background: #fea813;
+            color: #fff;
+            border: none;
+            @include border-radius(5px);
+        }
+        .add {
+            height: 0.4rem;
+            line-height: 0.4rem;
+            text-align: right;
+            font-size: 0.12rem;
+            color: #727272;
+        }
+        .other {
+            margin-top: 0.55rem;
+            text-align: center;
+            font-size: 0.11rem;
+            color: #9d9d9d;
+            span {
+                height: 0.45rem;
+                display: inline-block;
+            }
+            .icon {
+                @include flexbox();
+                @include flex-direction();
+                @include justify-content(space-around);
+                div {
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include justify-content(center);
+                    @include align-items(center);
+                    font-size: 0.12rem;
+                    i {
+                        font-size: 0.4rem;
+                    }
+                    &:first-child {
+                        i {
+                            color: #0eb53d;
+                        }
+                    }
+                    &:nth-child(2) {
+                        i {
+                            color: #e03a2c;
+                        }
+                    }
+                    &:nth-child(3) {
+                        i {
+                            color: #22a7e8;
+                        }
+                    }
+                    &:nth-child(4) {
+                        i {
+                            color: #12a3e1;
+                        }
+                    }
+                }
+            }
+        }
+        .mess {
+            @include flex(1);
+            width: 100%;
+            @include flexbox();
+            @include flex-direction(column);
+            @include justify-content(flex-end);
+            @include align-content(flex-end);
+            span {
+                display: block;
+                text-align: center;
+                font-size: 0.13rem;
+                color: #c8c8c8;
+                margin-bottom: 0.1rem;
+            }
+        }
+    }
+}

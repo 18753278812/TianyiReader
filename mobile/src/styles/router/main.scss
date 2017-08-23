@@ -1,0 +1,239 @@
+#main {
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+    footer {
+        $tabheight: 0.5rem;
+        height: $tabheight;
+        background-color: #f8f8f8;
+        ul {
+            @include flexbox();
+            @include flex-direction();
+            @include justify-content(space-around);
+            @include align-items(center);
+            height: 100%;
+            li{
+                
+                a{
+                    color: #acacac;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include justify-content(center);
+                    @include align-items(center);
+                    i{
+                        height: 0.22rem;
+                        i{
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                    span{
+                        font-size: 0.12rem;
+                    }
+                }
+                .router-link-active {
+                    color: #0072fe;
+                }
+                
+            }
+        }
+    }
+    #serch {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        background: #fff;
+        animation-delay: 0s;
+        -webkit-animation-delay: 0s;
+        animation-duration: 0.2s;
+        -webkit-animation-duration: 0.2s;
+        z-index: 1000;
+        header {
+            @include flexbox();
+            @include align-items(center);
+            height: 0.4rem;
+            i:first-child {
+                width: 0.36rem;
+                height: 0.4rem;
+                line-height: 0.4rem;
+                font-size: 0.2rem;
+                margin-left: 0.13rem;
+            }
+            .serchfind {
+                width: 0.3rem;
+                height: 0.28rem;
+                text-align: center;
+                line-height: 0.28rem;
+                background-color: #f5f5f5;
+                color: #bbbbbb;  
+            }
+            input {
+                @include flex(1);
+                margin-right: 0.13rem;
+                height: 0.28rem;
+                color: #bbbbbb;
+                background-color: #f5f5f5;
+                border: none;
+                font-size: 0.12rem;
+            }
+        }
+    }
+    #mybook, #my, #find, #shop {
+        @include flexbox();
+        @include flex-direction(column);
+        @include flex(1);
+        overflow-y: hidden;
+        width: 100%;
+    }
+    #mybook {
+        $mybookmargin: 0.15rem;
+        background: #ededed;
+        header {
+            @include flexbox();
+            height: 0.43rem;
+            i {
+                height: 0.43rem;
+                line-height: 0.43rem;
+                width: 0.35rem;
+                font-size: 0.20rem;
+                display: inline-block;
+                text-align: center;
+                &:last-child {
+                    margin-right: $mybookmargin;
+                }
+            }
+            &::before {
+                content: "";
+                @include flex(1);
+            }
+        }
+        section {
+            @include flex(1);
+            width: 100%;
+            overflow-y: scroll;
+            .label {
+                @include flexbox();
+                @include flex-direction();
+                .label-text {
+                    @include flex(1);
+                    margin: 7px $mybookmargin 0;
+                    background: #fff;
+                    min-height: 0.9rem;
+                }
+            }
+            .books {
+                ul {
+                    @include flexbox();
+                    @include flex-direction();
+                    @include justify-content(space-between);
+                    @include align-items(flex-end);
+                    @include flex-wrap(wrap);    
+                    padding: 0 $mybookmargin;
+                    li {
+                        min-height: 1.2rem;
+                        margin-bottom:  0.13rem;
+                        margin-top: 0.17rem;
+                        width: 0.9rem;
+                        a{
+                            display: inline-block;
+                            width: 100%;
+                            color: #919191;
+                        }
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    &::after {
+                        content: "";                    
+                        width: 0.9rem;
+                    }
+                    .addbook {
+                        background: #f1f1f1;
+                        @include border(#e3e3e3);
+                        padding: 0.1rem;
+                        div{
+                            height: 100%;
+                            width: 100%;
+                            text-align: center;
+                            line-height: 1rem;
+                            font-size: 0.15rem;
+                            @include border(#c0c0c0,$border-style: dashed)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #shop {
+        $padding: 0.16rem;
+        header {
+            @include flexbox();
+            @include flex-direction();
+            @include justify-content(space-between);
+            @include align-items(center);
+            height: 0.42rem;
+            width: 100%;
+            background: #fff;
+            padding: 0 $padding; 
+            &::before {
+                content: "";
+                @include flex(1);
+            }
+            .shop-top-tap {
+                width: 1.4rem;
+                height: 0.3rem;
+                background-color: #f0f0f0;
+                @include border-radius(0.15rem);
+                @include background-origin(0.15rem);
+                padding: 2px;
+                @include flexbox();
+                @include flex-direction();
+                div {
+                    @include flex(1);
+                    height: 100%;
+                    color: #b6b6b6;
+                    @include border-radius(0.14rem);
+                    @include background-origin(0.14rem);
+                    text-align: center;
+                    line-height: 0.3rem;
+                    font-size: 0.11rem;
+                }
+                .active {
+                    background: #fff;
+                    color: #565656;  
+                }
+            }
+            & :last-child {
+                @include flex(1);
+                text-align: right;
+            }
+        }
+        nav {
+            height: 0.45rem;
+            background: #fff;         
+            padding: 0 $padding;
+            @include flexbox();
+            @include flex-direction();
+            @include justify-content(space-around);
+            @include align-items(center);
+            @include border(0 0 2px 0,#efefef);
+            a {
+                color: #b6b6b6;
+                display: inline-block;
+                height: 100%;
+                width: 0.35rem;
+                line-height: 0.45rem;
+                font-size: 0.14rem;
+                text-align: center;
+            }        
+            .router-link-active {
+                color: #0077ff;
+                @include border(0 0 4px 0,#0077ff);
+            }
+        }
+    }
+}
+

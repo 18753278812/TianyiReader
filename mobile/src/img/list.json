@@ -1,0 +1,62 @@
+{
+	"boy": [{
+		"title": "畅销榜",
+		"desc": "人气畅销榜推荐",
+		"books": ["http://localhost:8000/books/images/_03.jpg","http://localhost:8000/books/images/_04.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "飙升榜",
+		"desc": "人气飙升榜推荐",
+		"books": ["http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/1_06.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "新书榜",
+		"desc": "人气新书榜推荐",
+		"books": ["http://localhost:8000/books/images/_04.jpg","http://localhost:8000/books/images/_03.jpg","http://localhost:8000/books/images/1_08.jpg"]
+	},
+	{
+		"title": "免费榜",
+		"desc": "人气免费榜推荐",
+		"books": ["http://localhost:8000/books/images/_06.jpg","http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/_03.jpg"]
+	}],
+	"girl": [{
+		"title": "畅销榜",
+		"desc": "人气畅销榜推荐",
+		"books": ["http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/1_06.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "飙升榜",
+		"desc": "人气飙升榜推荐",
+		"books": ["http://localhost:8000/books/images/_03.jpg","http://localhost:8000/books/images/1_06.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "新书榜",
+		"desc": "人气新书榜推荐",
+		"books": ["http://localhost:8000/books/images/_04.jpg","http://localhost:8000/books/images/_03.jpg","http://localhost:8000/books/images/1_08.jpg"]
+	},
+	{
+		"title": "免费榜",
+		"desc": "人气免费榜推荐",
+		"books": ["http://localhost:8000/books/images/_06.jpg","http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/_03.jpg"]
+	}],
+	"pb": [{
+		"title": "畅销榜",
+		"desc": "人气畅销榜推荐",
+		"books": ["http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/_04.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "飙升榜",
+		"desc": "人气飙升榜推荐",
+		"books": ["http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/1_06.jpg","http://localhost:8000/books/images/_06.jpg"]
+	},
+	{
+		"title": "新书榜",
+		"desc": "人气新书榜推荐",
+		"books": ["http://localhost:8000/books/images/1_06.jpg","http://localhost:8000/books/images/_03.jpg","http://localhost:8000/books/images/1_08.jpg"]
+	},
+	{
+		"title": "免费榜",
+		"desc": "人气免费榜推荐",
+		"books": ["http://localhost:8000/books/images/_06.jpg","http://localhost:8000/books/images/_08.jpg","http://localhost:8000/books/images/_03.jpg"]
+	}]
+}

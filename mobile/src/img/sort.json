@@ -1,0 +1,80 @@
+{
+	"boy": [{
+		"img": "http://localhost:8000/sort/_03.jpg",
+		"sort": "myth",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_06.jpg",
+		"sort": "tale",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "aaa",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_10.jpg",
+		"sort": "bbb",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	}],
+	"girl": [{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "myth",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_03.jpg",
+		"sort": "tale",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	},{
+		"img": "http://localhost:8000/sort/_10.jpg",
+		"sort": "aaa",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "bbb",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "myth",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	}],
+	"pb": [{
+		"img": "http://localhost:8000/sort/_10.jpg",
+		"sort": "myth",
+		"title": "aasda",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_06.jpg",
+		"sort": "tale",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "aaa",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_03.jpg",
+		"sort": "bbb",
+		"title": "武侠仙侠",
+		"desc": "现代修真/武侠小说/古典神话"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "myth",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	},{
+		"img": "http://localhost:8000/sort/_08.jpg",
+		"sort": "myth",
+		"title": "玄幻奇幻",
+		"desc": "热血玄幻/西方奇幻/异界大陆"
+	}]
+}
